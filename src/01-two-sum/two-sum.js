@@ -62,9 +62,8 @@ function optimizedTwoSum(arr, target) {
   return [];
 }
 
-// console.log(basicTwoSum(arr, target));
-console.time("INICIO OPTIMIZED")
-console.log(optimizedTwoSum(arr,target))
+console.time("INICIO OPTIMIZED");
+console.log(optimizedTwoSum(arr, target));
 console.timeEnd("INICIO OPTIMIZED");
-// O(n^2) -> O(n)
-// O(1) -> O(n)
+
+module.exports = { basicTwoSum };
